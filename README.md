@@ -32,15 +32,28 @@ O sistema permite o cadastro de novos usuários, incluindo dados pessoais (nome,
 
 Para a manipulação dos Endpoints foi ultilizado o Postman.
 
--	`Get` Buscar pessoas: http://localhost:8080/pessoas
--	`Get` Buscar pessoa por id: http://localhost:8080/pessoa/{id}
-
-- exemplo:
-- ![image](https://user-images.githubusercontent.com/108132741/213063054-b9619983-cd89-40b8-abb9-ade1c720c5cd.png)
-
-
 -	`Post` Criar pessoa: http://localhost:8080/pessoa
 -	`Put` Alterar pessoa: http://localhost:8080//alterapessoa/{id}
+-	`Get` Buscar pessoas: http://localhost:8080/pessoas
+
+-	`Get` Buscar pessoa por id: http://localhost:8080/pessoa/{id} 
+
+- exemplo:
+```js
+   {
+        "id": 1,
+        "nome": "Andreza Santos",
+        "dataNascimento": "21/08/1964",
+        "endereco": {
+            "logadouro": "Rua A",
+            "cep": 12345678,
+            "numero": 123,
+            "cidade": "Salvador",
+            "principal": true
+        }
+    }
+```
+
 
 ## Banco de Dados- H2:
 
