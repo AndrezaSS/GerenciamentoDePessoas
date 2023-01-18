@@ -1,4 +1,4 @@
-<h1 align = "center"> 💻 Gerenciamento de usuários </h1>
+<h1 align = "center"> 💻 Gerenciamento de Pessoas </h1>
 
 ## Definição:
 Trata-se da criação de um gerenciamento de usuários que permita realizar um CRUD para o cadastro de pessoas e endereços. 
