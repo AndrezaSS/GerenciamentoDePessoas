@@ -5,7 +5,7 @@ Trata-se da criação de um gerenciamento de usuários que permita realizar um C
 
 ## Habilidades utilizadas:
 
-Foram utilizados os conceitos de Java com orientação a Objetos, onde classes foram criadas para representar as entidades gerenciadas. Para armazenar os dados, aplicamos os conceitos de bancos de dados relacional. Em específico neste projeto, foi utilizado o h2. Para criação do projeto, foi utilizado o o Maven com Spring Boot (Java Web, actuator, data jpa, h2, Lombok).	
+Foram utilizados os conceitos de Java com orientação a Objetos, onde classes foram criadas para representar as entidades gerenciadas. Para armazenar os dados foi utilizado o h2 e para criação do projeto foi utilizado o o Maven com Spring Boot (Java Web, actuator, data jpa, h2, Lombok).	
 
 ## ⚙️ Tecnologias necessárias para utilização do sistema:
 + Java 19
